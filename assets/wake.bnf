@@ -1,0 +1,8 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar wake;
+!slot <callCmd>;
+!slot <contact>;
+!start <callStart>;
+<callStart>:<callCmd><contact>;
+<callCmd>:讯飞语音|讯飞语点;
+<contact>:张三|李四|张海洋;

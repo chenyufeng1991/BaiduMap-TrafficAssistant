@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Traffic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_bus">BusActivity</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_browser">BrowserActivity</string>
+    <string name="title_activity_law">LawActivity</string>
+    <string name="title_activity_dial">DialActivity</string>
+    <string name="title_activity_geo_code">GeoCodeActivity</string>
+    <string name="title_activity_modify">ModifyActivity</string>
+    <string name="title_activity_face">FaceActivity</string>
+    <string name="title_activity_speech">SpeechActivity</string>
+
+</resources>
