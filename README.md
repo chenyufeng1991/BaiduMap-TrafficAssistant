@@ -40,3 +40,47 @@
 ![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/离线地图.jpg)<br/><br/>
 ##5.技术博客
 我的个人技术博客：[http://blog.csdn.net/chenyufeng1991](http://blog.csdn.net/chenyufeng1991) 。欢迎大家访问！
+
+
+#Introduce In English
+&emsp;&emsp;&nbsp;This Android App is based on BaiduMap SDK called TrafficAssistant.At present,the app is sold on Peasecod,Meizu App Market,Sougou Assistant.But now,I decide to opensource this project which for many Android App developers and BaiduMap developers.At the same time,the project has bugs and lack of some function modules,which I hope developers could contribute your nice code to  this app.You could click fork button in the upper right corner to acquire project to you Github repo,or click star button to focus on project progress.
+##1.Project Introduce
+&emsp;&emsp;&nbsp;The version of BaiduMap SDK is v3.2.0. Now the functions of app are showing general map,satellite map,traffic flow map,thermodynamic map,location,mode switch(common mode,following mode,compass mode),bus and subway inquiry,downloading offline map and navagation.Other addtional function are browsing website and contacts.</br>
+&emsp;&emsp;&nbsp;This app give you some interfaces to develop other modules like login and register function,intelligence helper and entertainment.If you have good ideas,could realize them in the app.I hope more and more Android developers work togerther,and develop an excellent product.The main interface of app is following:
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/主界面.jpg)<br/><br/>
+##2.Develop Guideline
+&emsp;&emsp;&nbsp;If you download or clone the code,the app can't run on your smart  phone or simulator.In fact,you need some simple configurations about BaiduMap SDK.The configuration methods are following:
+###(1)Create Application
+&emsp;&emsp;&nbsp;First you need go to BaiduMap official website[http://developer.baidu.com/map/index.php?title=%E9%A6%96%E9%A1%B5](http://developer.baidu.com/map/index.php?title=%E9%A6%96%E9%A1%B5)to apply a key where enter the "API Console"upper right corner. 
+###(2)Obtain Key
+&emsp;&emsp;&nbsp;we need create an Android app.As shown in figure:
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/创建应用.png)<br/><br/>
+###(3)Security Code
+&emsp;&emsp;&nbsp;In the last step,need a security code.This is very important! Security Code = SHA1 fingerprint + package name. This app package name is "com.android.traffic".How could we obtain SHA1 fingerprint? We can go to Eclipse-->Preferences-->Android-->Build ,now you could see SHA1:
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/安全码.png)<br/><br/>
+###(4)Copy AK to Project
+&emsp;&emsp;&nbsp;After completing the above steps,you could obtain a AK(Application Key),then copy AK to AndroidMenifest.xml of peoject,where the position in API_KEY.
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/AK.png)<br/><br/>
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/AK02.png)<br/><br/>
+###(5)Run Project
+&emsp;&emsp;&nbsp;So far,you could run the app on your smart mobile phone or simulators.But be careful,the location function may invalid on simulator. Personnally,run app on real machine at best.
+##3.Development Suggestion
+&emsp;&emsp;&nbsp;By viewing main interface,login-register module,intelligence helper and entertainment didn't implement.If you have wonderful idea,just coding and pull request.I hope this opensource project will better in everyone's efforts.I expect you code.
+##4.Operation Effect
+###(1)Location
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/定位.jpg)<br/><br/>
+###(2)Satellite Map
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/卫星地图.jpg)<br/><br/>
+###(3)Traffic Flow Map
+ ![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/交通流量图.jpg)<br/><br/>
+###(4)Thermodynamic Map
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/热力图.jpg)<br/><br/>
+###(5)Compass Mode
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/罗盘模式.jpg)<br/><br/>
+###(6)Bus And Subway Inquiry
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/公交查询01.jpg)<br/><br/>
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/公交查询02.jpg)<br/><br/>
+###(7)Download Offline Map
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/离线地图.jpg)<br/><br/>
+##5.Technology Blog
+&emsp;&emsp;&nbsp;My personal technology blog:[http://blog.csdn.net/chenyufeng1991](http://blog.csdn.net/chenyufeng1991) .
