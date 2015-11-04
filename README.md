@@ -83,4 +83,4 @@
 ###(7)Download Offline Map
 ![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/离线地图.jpg)<br/><br/>
 ##5.Technology Blog
-&emsp;&emsp;&nbsp;My personal technology blog:[http://blog.csdn.net/chenyufeng1991](http://blog.csdn.net/chenyufeng1991) .
+&emsp;&emsp;&nbsp;My personal technology blog:[http://blog.csdn.net/chenyufeng1991](http://blog.csdn.net/chenyufeng1991) .Welcome to visit.
